@@ -58,6 +58,7 @@ def render_template_with_mappings(template_path, mappings):
 
 def render_template_to_file(template_path, output_path, mappings):
     """Render template markdown with mappings and write it to output_path."""
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
     rendered_content = render_template_with_mappings(template_path, mappings)
 
     with open(output_path, "w", encoding="utf-8") as output_file:
@@ -76,6 +77,7 @@ mappings = load_mappings()
 
 for template in templates:
     template_path = os.path.join(TEMPLATES_DIR, template)
-    output_path = os.path.join(OUTPUT_DIR, f"rendered_{template[0:-13]}.txt")
+    # output_path = os.path.join(OUTPUT_DIR, f"rendered_{template[0:-13]}.txt")
+    output_path = os.path.join(OUTPUT_DIR, os.path.splitext(template)[0].partition("_template")[0] + "_rendered.txt")
     render_template_to_file(template_path, output_path, mappings)
     print(f"Rendered {template} to {output_path}")

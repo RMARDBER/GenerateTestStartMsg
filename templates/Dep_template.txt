@@ -1,0 +1,44 @@
+# Uppstart av Dep-prov - {{vehicle}} på {{SW}}
+
+Hejsan!   
+  
+Vi startar ett nytt prov på samma bil som tidigare, {{vehicle}}, på mjukvaruversion: {{SW}}  
+  
+**Bil- och mjukvaruinformation**  
+Model: {{model}}  
+Registration number: {{reg_num}}  
+Starting software: {{release}} – {{SW}}
+
+ 
+
+**Loggning**
+
+**NUC+Vector:** The car is equipped with Vector and NUC that automatically uploads logs when standing on Volvo Wi-Fi. Therefore, you do not need to take any trigger. However, you need to be very precise of the timing when issue occurred.
+
+**DHU-bug reports**: Long press of play module Do not enter any menu after triggering the bug report. Wait until the bug report is ready and upload it.
+
+**Climate logs:** Press sync temperature button in CSD 10 times.
+
+**ADAS Hostlog:** for issues related to Pilot Assist, RSI, LKA, Curve Speed Assist. Make sure to also add a location (Pin on map, koordinates, roadname etc)
+
+
+ 
+**Felrapportering**
+
+Precis som tidigare, fortsätter vi att skriva OK/NT när vi arbetar i Excel. För exempel se tidigare prov i Excel-filen
+
+Fortsätt att själva ladda upp era tasks i Excel. Om ni stöter på problem, hör av er så hjälper jag till. För mer information och hjälpmedel, se följande länkar:
+
+\- Ladda upp tasks excel: [Lathund]({{lathund_link}} "{{lathund_link}}")
+
+\- Feature: [{{vira_feature_text}}]({{vira_feature_link}} "{{vira_feature_link}}")
+
+\- Task template: [{{vira_template_text}}]({{vira_template_link}} "{{vira_template_link}}")
+
+\- Excel workbook: [{{excel_text}}]({{excel_link}} "{{excel_link}}")
+
+ 
+
+Ps, efter avslutad körning får ni gärna skriva en kort summering som en kommentar till detta inlägg. Det hjälper mycket för att få en snabb överblick av provet.
+
+Ha det gott och hojta om det är några frågor! 

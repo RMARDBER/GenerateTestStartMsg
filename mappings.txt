@@ -11,4 +11,23 @@ vira_dashboard_link: https://jira-vira.volvocars.biz/secure/RapidBoard.jspa?rapi
 vira_template_text: \[PKV-48662\] UDK10M/XLP1108 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
 vira_template_link: https://jira-vira.volvocars.biz/browse/pkv-48662
 
+#vira_template_text: \[PKV-48673\] CJW02P/XLP1179 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
+#vira_template_link: https://jira-vira.volvocars.biz/browse/PKV-48673
+
+#vira_template_text: \[PKV-48676\] JBW41R/XLP1109 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
+#vira_template_link: https://jira-vira.volvocars.biz/browse/PKV-48676
+
+vira_feature_text: \[PKV-48675\] SPA3 - PKV_Dependability_Test - CSWV0.3 - VIRA JIRA
+vira_feature_link: https://jira-vira.volvocars.biz/browse/PKV-48675
+
+excel_text: PKV Dependability SPA3 Test workbook.xlsx
+excel_link: https://intranet.volvocars.net/:x:/r/sites/PKVDependabilityTestSPA2/Shared%20Documents/General/PKV%20Dependability%20SPA3%20Test%20workbook.xlsx?d=wea9b3cef91414db5b3e8ccd1a1114f8f&csf=1&web=1&e=4JgXf4&nav=MTVfe0E1OUU1MjgyLUM1MkUtNDY2Ri1COTExLTg0RUU1Qjc2NDdCOH0
+
+forms_link: https://forms.office.com/e/sDFAdju8uN
+lathund_link: https://mysite.volvocars.net/personal/masplun4_volvocars_com/_layouts/15/Doc.aspx?sourcedoc=%7b20211677-a965-4a93-a277-86b75d1c143f%7d&action=view&wd=target%28L%C3%A4gga%20till%20nya%20punkter%20i%20Excel-listan.one%7C5d8f6661-12e8-457f-985d-abb914f64f3a%2FL%C3%A4gga%20till%20nya%20punkter%20i%20Excel-listan%7C2be143ab-ed7e-4500-97a6-f39c8d0a4309%2F%29&wdorigin=NavigationUrl
+
+car_link: https://intranet.volvocars.net/:f:/r/sites/FuVe/Shared%20Documents/General/FuVe-Listor/SPA3%20-%20V436/REL14/0.3/CJW02P?csf=1&web=1&e=JlBInr
+
+information_chanel: #FuVe – General
+
 dripped_until: 2026-05-17 kl 14:00

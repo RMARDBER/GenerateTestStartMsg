@@ -1,0 +1,90 @@
+# {{platform}} - Start-up FuVe test for {{reg_num}} to verify {{release}} – {{SW}}
+
+Hi all!
+
+We will now start the FuVe test to verify {{release}}.
+
+- Please check the latest information daily in {{information_chanel}}
+
+**Car/SW information**  
+Model: {{model}}  
+Registration number: {{reg_num}}  
+Starting software: {{release}} – {{SW}}
+
+**FuVe list - instruction**
+
+1. Go to:  *[CJW02P]({{car_link}} "car_link") (If link isn’t working you can just click your way in teams, same path as described above)*
+
+2. Download a local copy of the the FuVe-excel sheet to your computer.
+
+3. Conduct the tests and fill out Column N “Verdict” with Pass/Fail/Skip
+
+4. If “Fail” – Create VIRA task and paste link to VIRA in Column O.
+
+5. When your shift is ending, save the file as for example “{{reg_num}} - FUVE - {{platform}} - {{release}} – {{SW}} - Shift 1“ and upload it to the same folder. “*[CJW02P]({{car_link}} "car_link") (If link isn’t working you can just click your way in teams, same path as described above)*”
+
+6. The next person driving then downloads a local copy of file “{{reg_num}} - FUVE - {{platform}} - {{release}} – {{SW}} - Shift 1” and continues from where shift 1 ended. When shift 2 is done, save and upload as {{reg_num}} - FUVE - {{platform}} - {{release}} – {{SW}} - Shift 2".   
+     
+   In the end it should be looking like this, see example from SPA1/CMA:
+
+**Logging capabilities**
+
+**NUC+Teqnica+Vector:** The car is equipped with Vector and NUC that automatically uploads logs when standing on Volvo Wi-Fi. Therefore, you do not need to take any trigger. However, you need to be very precise of the timing when issue occurred.
+
+**UXC-bug reports**: Long press of play module (same as DHU logging).  Do not enter any menu after triggering the bug report. Wait until the bug report is ready and upload it.
+
+**Climate logs:** Press sync temperature button in CSD 10 times.
+
+**ADAS Hostlog:** for issues related to Pilot Assist, RSI, LKA, Curve Speed Assist. Make sure to also add a location (Pin on map, koordinates, roadname etc)
+
+**VIRA issue reporting**
+
+2. When opening the template in VIRA press More -\> Copy.
+
+3. Change the name in Summary to a relevant title of the issue.
+
+4. Fill the predefined fields in Description:
+
+    1. *Description of Issue:*
+
+    2. *Precondition:*
+
+    3. *Performed action:*
+
+    4. *Observed consumer experience:*
+
+    5. *Expected outcome of performed action:*
+
+    6. *Solved by (if applicable):*
+
+    7. *Priority: If possible, fill in the Priority field in VIRA. 1 is highest priority and 10 is lowest. Due to the thigh inflow of tasks, we need to prioritize what tasks to start with. Therefore, it would be helpful for us to know what issues you think should be prioritized first.*
+
+    8. *DHU log (bug report ID/date/time):*
+
+    9. *NUC log (date/time):*
+
+   10. *ADAS Hostlog (date/time):*
+
+   11. *Climate logs (date/time):*
+
+5. Remember to be careful with writing sensitive information in the VIRA. Call me if you are unsure.
+
+6. Lastly press create to create the VIRA remark.
+
+A Dashboard has been created to keep track of the reports submitted:
+
+[{{vira_dashboard_text}}]({{vira_dashboard_link}} "{{vira_dashboard_link}}")
+
+Use VIRA to report all issues using following template:
+
+[{{vira_template_text}}]({{vira_template_link}} "{{vira_template_link}}")
+
+**Additional Information**
+
+- The car is Dripped until {{dripped_until}}
+
+- DON’T TEST FACTORY RESET, due to a lot of problems that happens after a reset.
+
+- Volvo app is possible to use. Test those functions as much as possible and climatization in the car.
+
+Sign in to your account
