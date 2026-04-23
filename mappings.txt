@@ -1,10 +1,10 @@
-##### EDIT BELOW #####
+##### EDIT BELOW VALUES #####
 
-vehicle: UDK10M/XLP1108
+vehicle: AGX28J/XLP1177
 release: REL14
 SW: CSWV0.3
-model: EX60 AWD
-reg_num: UDK10M
+model: EX60 RWD
+reg_num: AGX28J
 platform: SPA3
 vira_template_num: PKV-48662
 vira_feature_num: PKV-48675
@@ -26,7 +26,7 @@ lathund_link: https://mysite.volvocars.net/personal/masplun4_volvocars_com/_layo
 
 car_link: https://intranet.volvocars.net/:f:/r/sites/FuVe/Shared%20Documents/General/FuVe-Listor/SPA3%20-%20V436/REL14/0.3/CJW02P?csf=1&web=1&e=JlBInr
 
-######################
+############################
 
 
 

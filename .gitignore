@@ -1,3 +1,5 @@
 outputs/
 generate_msg_test.py
 PKV SPA3 Release Validation - Agile.txt
+build/
+dist/
