@@ -1,0 +1,14 @@
+vehicle: UDK10M/XLP1108
+release: REL14
+SW: CSWV0.3
+model: EX60 AWD
+reg_num: UDK10M
+platform: SPA3
+
+vira_dashboard_text: PKV SPA3 Release Validation - Agile Board - VIRA JIRA
+vira_dashboard_link: https://jira-vira.volvocars.biz/secure/RapidBoard.jspa?rapidView=19730&quickFilter=247468
+
+vira_template_text: \[PKV-48662\] UDK10M/XLP1108 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
+vira_template_link: https://jira-vira.volvocars.biz/browse/pkv-48662
+
+dripped_until: 2026-05-17 kl 14:00

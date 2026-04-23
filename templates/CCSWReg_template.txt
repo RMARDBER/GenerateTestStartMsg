@@ -1,0 +1,92 @@
+# *Start-up CCSWReg test for {{vehicle}} to verify {{release}} {{SW}}*
+We will now start a new CCSWReg for {{release}} – **{{SW}}**
+ 
+Please check the latest information daily in PKV Current Car Regression Test – General
+ 
+*IMPORTANT! FIRST SHIFT!* Please note, for this test, the first shift will perform **Block 0 of the BLX test**. Instructions on how to perform the block and how to store the results are available in TRAP app.
+ 
+Instructions on how to act if encountering an error during Block 0 you can find here:
+https://confluence.volvocars.biz/spaces/CFRT/pages/873958801/Fas+1+aka+Block+0+Guide+f%C3%B6r+Kritisk+Funktionskontroll
+ 
+The cycle sheet will still be available in the TRAP application, and the test name is: {{platform}} - {{release}} – {{SW}} - Current Car Software Regression Test
+ 
+The routes used during this test are:
+
+- Tjörn - [57.7751362, 12.7353968 till Volvo Cars Hällered, Proving ground, Hällered, 504 91 Sandhult – Google…](https://www.google.se/maps/dir/57.7751362,12.7353968/57.9305099,12.5430213/57.9596361,12.1241698/58.1333213,12.1232391/IONITY+laddstation/Hen%C3%A5n/58.2865466,12.3076766/%C3%96stadkulle/57.7745574,12.7323574/@58.1341801,12.0042646,83842m/data=!3m1!1e3!4m27!4m26!1m1!4e1!1m0!1m0!1m0!1m5!1m1!1s0x46456f9f4985de09:0x9d21ea8c9db20249!2m2!1d11.8473109!2d58.0246588!1m5!1m1!1s0x4645097c745fdd71:0x9073731adb1051ef!2m2!1d11.6799725!2d58.2366624!1m0!1m5!1m1!1s0x46454b50cfb989cd:0x27e4732d43013e19!2m2!1d12.6348207!2d58.0238228!1m0!3e0?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D "https://www.google.se/maps/dir/57.7751362,12.7353968/57.9305099,12.5430213/57.9596361,12.1241698/58.1333213,12.1232391/ionity+laddstation/hen%c3%a5n/58.2865466,12.3076766/%c3%96stadkulle/57.7745574,12.7323574/@58.1341801,12.0042646,83842m/data=!3m1!1e3!4m27!4m26!1m1!4e1!1m0!1m0!1m0!1m5!1m1!1s0x46456f9f4985de09:0x9d21ea8c9db20249!2m2!1d11.8473109!2d58.0246588!1m5!1m1!1s0x4645097c745fdd71:0x9073731adb1051ef!2m2!1d11.6799725!2d58.2366624!1m0!1m5!1m1!1s0x46454b50cfb989cd:0x27e4732d43013e19!2m2!1d12.6348207!2d58.0238228!1m0!3e0?entry=ttu&g_ep=egoymdi1mdiyni4xikxmdsojldewmjexnduzsafqaw%3d%3d")
+
+- Varberg - [Volvo Cars Hällered, Proving ground till Bollebygd – Google Maps](https://www.google.se/maps/dir/VOLVO+H%C3%A4llered+Proving+Ground,+H%C3%A4llered,+504+91+Sandhult,+Sweden/Kungsgatan,+Bor%C3%A5s/Svenljunga/ICA+Supermarket+Ullared,+Varbergsv%C3%A4gen,+Ullared/57.1682815,12.2806127/Olskroken/Hemsj%C3%B6+Socken/57.7745495,12.7295781/@57.4977369,11.9077208,170669m/data=!3m2!1e3!4b1!4m50!4m49!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m5!1m1!1s0x465aa0b249c58403:0x71564743eaf21ffa!2m2!1d12.9423143!2d57.7240155!1m5!1m1!1s0x46500ccacf78530d:0xe45bbabd40db37f4!2m2!1d13.1146225!2d57.4955715!1m15!1m1!1s0x465037ab02df446f:0xede6f94d1a11bb1b!2m2!1d12.7176633!2d57.1366665!3m4!1m2!1d12.7083713!2d57.1378554!3s0x465037005b1e08e9:0x92ca2ba46abc076d!3m4!1m2!1d12.6892339!2d57.1461788!3s0x4650371bd0306b39:0xb998ffe5ca0c2c92!1m0!1m5!1m1!1s0x464ff47e723c91e5:0xa64c36a659fefedd!2m2!1d12.0041369!2d57.7156272!1m5!1m1!1s0x464554790cf662d3:0xa01907aa3405f10!2m2!1d12.4760433!2d57.84551!1m0!3e0?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D "https://www.google.se/maps/dir/volvo+h%c3%a4llered+proving+ground,+h%c3%a4llered,+504+91+sandhult,+sweden/kungsgatan,+bor%c3%a5s/svenljunga/ica+supermarket+ullared,+varbergsv%c3%a4gen,+ullared/57.1682815,12.2806127/olskroken/hemsj%c3%b6+socken/57.7745495,12.7295781/@57.4977369,11.9077208,170669m/data=!3m2!1e3!4b1!4m50!4m49!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m5!1m1!1s0x465aa0b249c58403:0x71564743eaf21ffa!2m2!1d12.9423143!2d57.7240155!1m5!1m1!1s0x46500ccacf78530d:0xe45bbabd40db37f4!2m2!1d13.1146225!2d57.4955715!1m15!1m1!1s0x465037ab02df446f:0xede6f94d1a11bb1b!2m2!1d12.7176633!2d57.1366665!3m4!1m2!1d12.7083713!2d57.1378554!3s0x465037005b1e08e9:0x92ca2ba46abc076d!3m4!1m2!1d12.6892339!2d57.1461788!3s0x4650371bd0306b39:0xb998ffe5ca0c2c92!1m0!1m5!1m1!1s0x464ff47e723c91e5:0xa64c36a659fefedd!2m2!1d12.0041369!2d57.7156272!1m5!1m1!1s0x464554790cf662d3:0xa01907aa3405f10!2m2!1d12.4760433!2d57.84551!1m0!3e0?entry=ttu&g_ep=egoymdi1mdyzmc4wikxmdsoasafqaw%3d%3d")
+
+- Jönköping - [Volvo Cars Hällered, Proving ground till Volvo Cars Hällered, Proving ground – Google Maps](https://www.google.se/maps/dir/VOLVO+H%C3%A4llered+Proving+Ground,+H%C3%A4llered,+504+91+Sandhult,+Sweden/57.9403406,13.1994726/58.0540761,13.3784219/Resecentrum+Falk%C3%B6ping+V%C3%A4sttrafik,+J%C3%A4rnv%C3%A4gsgatan,+Falk%C3%B6ping/Linderyd/Tr%C3%A5nghalla/Quality+Hotel+Match,+Br%C3%A5nebacken,+J%C3%B6nk%C3%B6ping/VOLVO+H%C3%A4llered+Proving+Ground,+H%C3%A4llered,+504+91+Sandhult,+Sweden/@57.8511289,13.1461411,169014m/data=!3m1!1e3!4m40!4m39!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m0!1m0!1m5!1m1!1s0x465aefa2d23fffff:0xb3ceeade1b498aa4!2m2!1d13.552564!2d58.175456!1m5!1m1!1s0x465a5222b3c99bcd:0xb5d3a0c44391a0ef!2m2!1d14.2068676!2d58.2260681!1m5!1m1!1s0x465a6eb07ea3a87b:0xa01907aa3404eb0!2m2!1d14.1485541!2d57.8363516!1m5!1m1!1s0x465a6d1fe37d2fbb:0xf3c24e9eee13f5ed!2m2!1d14.1608382!2d57.7840229!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!3e0?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D "https://www.google.se/maps/dir/volvo+h%c3%a4llered+proving+ground,+h%c3%a4llered,+504+91+sandhult,+sweden/57.9403406,13.1994726/58.0540761,13.3784219/resecentrum+falk%c3%b6ping+v%c3%a4sttrafik,+j%c3%a4rnv%c3%a4gsgatan,+falk%c3%b6ping/linderyd/tr%c3%a5nghalla/quality+hotel+match,+br%c3%a5nebacken,+j%c3%b6nk%c3%b6ping/volvo+h%c3%a4llered+proving+ground,+h%c3%a4llered,+504+91+sandhult,+sweden/@57.8511289,13.1461411,169014m/data=!3m1!1e3!4m40!4m39!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m0!1m0!1m5!1m1!1s0x465aefa2d23fffff:0xb3ceeade1b498aa4!2m2!1d13.552564!2d58.175456!1m5!1m1!1s0x465a5222b3c99bcd:0xb5d3a0c44391a0ef!2m2!1d14.2068676!2d58.2260681!1m5!1m1!1s0x465a6eb07ea3a87b:0xa01907aa3404eb0!2m2!1d14.1485541!2d57.8363516!1m5!1m1!1s0x465a6d1fe37d2fbb:0xf3c24e9eee13f5ed!2m2!1d14.1608382!2d57.7840229!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!3e0?entry=ttu&g_ep=egoymdi1mdiyni4xikxmdsojldewmjexnduzsafqaw%3d%3d")
+
+- City slinga - Borås/GBG/Kungälv/Alingsås -[Volvo Cars Hällered, Proving ground till Bollebygd – Google Maps](https://www.google.se/maps/dir/VOLVO+H%C3%A4llered+Proving+Ground,+H%C3%A4llered,+504+91+Sandhult,+Sweden/Kungsgatan,+Bor%C3%A5s/57.7158963,11.9802121/57.6921222,11.9008826/57.7745436,11.8913778/Kung%C3%A4lv/Surte/Partille/Alings%C3%A5s/57.7745495,12.7295781/@57.791893,12.2494497,42323m/data=!3m1!1e3!4m42!4m41!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m5!1m1!1s0x465aa0b249c58403:0x71564743eaf21ffa!2m2!1d12.9423143!2d57.7240155!1m0!1m0!1m0!1m5!1m1!1s0x46455e2013b154db:0x650dbaf5f076f8c9!2m2!1d11.9740317!2d57.869754!1m5!1m1!1s0x46455fbf9e7999a3:0xe74e7297e5224ddf!2m2!1d12.0157441!2d57.827921!1m5!1m1!1s0x464ff6e3a30ded5d:0x4019078290e7bc0!2m2!1d12.1251968!2d57.7366497!1m5!1m1!1s0x46454db45f82dc37:0x4019078290e91c0!2m2!1d12.5362113!2d57.9300205!1m0!3e0?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D "https://www.google.se/maps/dir/volvo+h%c3%a4llered+proving+ground,+h%c3%a4llered,+504+91+sandhult,+sweden/kungsgatan,+bor%c3%a5s/57.7158963,11.9802121/57.6921222,11.9008826/57.7745436,11.8913778/kung%c3%a4lv/surte/partille/alings%c3%a5s/57.7745495,12.7295781/@57.791893,12.2494497,42323m/data=!3m1!1e3!4m42!4m41!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m5!1m1!1s0x465aa0b249c58403:0x71564743eaf21ffa!2m2!1d12.9423143!2d57.7240155!1m0!1m0!1m0!1m5!1m1!1s0x46455e2013b154db:0x650dbaf5f076f8c9!2m2!1d11.9740317!2d57.869754!1m5!1m1!1s0x46455fbf9e7999a3:0xe74e7297e5224ddf!2m2!1d12.0157441!2d57.827921!1m5!1m1!1s0x464ff6e3a30ded5d:0x4019078290e7bc0!2m2!1d12.1251968!2d57.7366497!1m5!1m1!1s0x46454db45f82dc37:0x4019078290e91c0!2m2!1d12.5362113!2d57.9300205!1m0!3e0?entry=ttu&g_ep=egoymdi1mdyzmc4wikxmdsoasafqaw%3d%3d")
+
+- Borås Partille - [Volvo Cars Hällered, Proving ground till Bollebygd – Google Maps](https://www.google.se/maps/dir/VOLVO+H%C3%A4llered+Proving+Ground,+H%C3%A4llered,+504+91+Sandhult,+Sweden/Kungsgatan,+Bor%C3%A5s/57.6817643,12.1665317/57.7398488,12.1076469/57.7432943,12.1569751/57.7396162,12.137411/57.7713447,12.2700175/57.9277476,12.3616995/57.7745495,12.7295781/@57.8166269,11.8638432,169176m/data=!3m2!1e3!4b1!4m21!4m20!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m5!1m1!1s0x465aa0b249c58403:0x71564743eaf21ffa!2m2!1d12.9423143!2d57.7240155!1m0!1m0!1m0!1m0!1m0!1m0!1m0!3e0?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D "https://www.google.se/maps/dir/volvo+h%c3%a4llered+proving+ground,+h%c3%a4llered,+504+91+sandhult,+sweden/kungsgatan,+bor%c3%a5s/57.6817643,12.1665317/57.7398488,12.1076469/57.7432943,12.1569751/57.7396162,12.137411/57.7713447,12.2700175/57.9277476,12.3616995/57.7745495,12.7295781/@57.8166269,11.8638432,169176m/data=!3m2!1e3!4b1!4m21!4m20!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m5!1m1!1s0x465aa0b249c58403:0x71564743eaf21ffa!2m2!1d12.9423143!2d57.7240155!1m0!1m0!1m0!1m0!1m0!1m0!1m0!3e0?entry=ttu&g_ep=egoymdi1mdyzmc4wikxmdsoasafqaw%3d%3d")
+
+- Borås Ulricehamn Vårgårda - [Volvo Cars Hällered, Proving ground till Bollebygd – Google Maps](https://www.google.se/maps/dir/VOLVO+H%C3%A4llered+Proving+Ground,+H%C3%A4llered,+504+91+Sandhult,+Sweden/Kungsgatan,+Bor%C3%A5s/57.8093282,13.4202253/57.8620568,13.4301363/58.0318856,12.8097029/58.0632408,12.679876/57.7745495,12.7295781/@57.8582338,12.746074,10.5z/data=!4m19!4m18!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m5!1m1!1s0x465aa0b249c58403:0x71564743eaf21ffa!2m2!1d12.9423143!2d57.7240155!1m0!1m0!1m0!1m0!1m0!3e0?entry=tts&g_ep=EgoyMDI0MTIwMi4wKgBIAVAD "https://www.google.se/maps/dir/volvo+h%c3%a4llered+proving+ground,+h%c3%a4llered,+504+91+sandhult,+sweden/kungsgatan,+bor%c3%a5s/57.8093282,13.4202253/57.8620568,13.4301363/58.0318856,12.8097029/58.0632408,12.679876/57.7745495,12.7295781/@57.8582338,12.746074,10.5z/data=!4m19!4m18!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m5!1m1!1s0x465aa0b249c58403:0x71564743eaf21ffa!2m2!1d12.9423143!2d57.7240155!1m0!1m0!1m0!1m0!1m0!3e0?entry=tts&g_ep=egoymdi0mtiwmi4wkgbiavad")
+
+- Borås Skene Ulricehamn - [Volvo Cars Hällered, Proving ground till Bollebygd – Google Maps](https://www.google.se/maps/dir/VOLVO+H%C3%A4llered+Proving+Ground,+H%C3%A4llered,+504+91+Sandhult,+Sweden/57.7103433,12.7923306/57.6721232,12.6029434/57.4913714,12.627546/57.4960155,13.3408691/57.8071177,13.4206476/57.7240441,12.9424727/57.7745495,12.7295781/@57.633307,12.7717331,85017m/data=!3m1!1e3!4m15!4m14!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m0!1m0!1m0!1m0!1m0!1m0!1m0!3e0?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D "https://www.google.se/maps/dir/volvo+h%c3%a4llered+proving+ground,+h%c3%a4llered,+504+91+sandhult,+sweden/57.7103433,12.7923306/57.6721232,12.6029434/57.4913714,12.627546/57.4960155,13.3408691/57.8071177,13.4206476/57.7240441,12.9424727/57.7745495,12.7295781/@57.633307,12.7717331,85017m/data=!3m1!1e3!4m15!4m14!1m5!1m1!1s0x465aa9a99d9afb05:0xc5929fe853f2fdae!2m2!1d12.7321488!2d57.7745413!1m0!1m0!1m0!1m0!1m0!1m0!1m0!3e0?entry=ttu&g_ep=egoymdi1mdyzmc4wikxmdsoasafqaw%3d%3d")
+
+As per usual, all feedback is appreciated, and you can still use this link to provide feedback:
+https://forms.office.com/e/sDFAdju8uN
+ 
+*Car/SW information*
+Model: {{model}}
+Registration number: {{reg_num}}
+Starting software: {{release}} – {{SW}}
+ 
+*Logging capabilities*
+*NUC+Vector:* The car is equipped with Vector and NUC that automatically uploads logs when standing on Volvo Wi-Fi. Therefore, you do not need to take any trigger. However, you need to be very precise of the timing when issue occurred.
+*DHU-bug reports:* Long press of play module Do not enter any menu after triggering the bug report. Wait until the bug report is ready and upload it.
+*Climate logs:* Press sync temperature button in CSD 10 times.
+*ADAS Hostlog:* for issues related to Pilot Assist, RSI, LKA, Curve Speed Assist. Make sure to also add a location (Pin on map, koordinates, roadname etc)
+ 
+ 
+**VIRA issue reporting**
+
+1. When opening the template in VIRA press More -\> Copy.
+
+2. Change the name in Summary to a relevant title of the issue.
+
+3. Fill the predefined fields in Description:
+
+    1. *Description of Issue:*
+
+    2. *Precondition:*
+
+    3. *Performed action:*
+
+    4. *Observed consumer experience:*
+
+    5. *Expected outcome of performed action:*
+
+    6. *Solved by (if applicable):*
+
+    7. *Priority: If possible, fill in the Priority field in VIRA. 1 is highest priority and 10 is lowest. Due to the thigh inflow of tasks, we need to prioritize what tasks to start with. Therefore, it would be helpful for us to know what issues you think should be prioritized first.*
+
+    8. *DHU log (bug report ID/date/time):*
+
+    9. *NUC log (date/time):*
+
+   10. *ADAS Hostlog (date/time):*
+
+   11. *Climate logs (date/time):*
+
+4. Remember to be careful with writing sensitive information in the VIRA. Call me if you are unsure.
+
+5. Lastly press create to create the VIRA remark.
+
+A Dashboard has been created to keep track of the reports submitted:
+
+[{{vira_dashboard_text}}]({{vira_dashboard_link}} "{{vira_dashboard_link}}")
+
+Use VIRA to report all issues using following task template:
+
+[{{vira_template_text}}]({{vira_template_link}} "{{vira_template_link}}")
+
+**Additional Information**
+
+- The car is Dripped until {{dripped_until}}
+
+- DON’T TEST FACTORY RESET, due to a lot of problems that happens after a reset.
+
+- Volvo app is possible to use. Test those functions as much as possible and climatization in the car.
