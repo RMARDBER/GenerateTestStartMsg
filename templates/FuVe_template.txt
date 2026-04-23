@@ -77,7 +77,7 @@ A Dashboard has been created to keep track of the reports submitted:
 
 Use VIRA to report all issues using following template:
 
-[{{vira_template_text}}]({{vira_template_link}} "{{vira_template_link}}")
+[\[{{vira_template_num}}\] {{vehicle}} - TEMPLATE (open and select More-\>Copy) - VIRA JIRA](https://jira-vira.volvocars.biz/browse/{{vira_template_num}} "https://jira-vira.volvocars.biz/browse/{{vira_template_num}}")
 
 **Additional Information**
 

@@ -13,12 +13,9 @@ Starting software: {{release}} – {{SW}}
 
 **Loggning**
 
-**NUC+Vector:** The car is equipped with Vector and NUC that automatically uploads logs when standing on Volvo Wi-Fi. Therefore, you do not need to take any trigger. However, you need to be very precise of the timing when issue occurred.
-
-**DHU-bug reports**: Long press of play module Do not enter any menu after triggering the bug report. Wait until the bug report is ready and upload it.
-
-**Climate logs:** Press sync temperature button in CSD 10 times.
-
+**NUC+Vector:** The car is equipped with Vector and NUC that automatically uploads logs when standing on Volvo Wi-Fi. Therefore, you do not need to take any trigger. However, you need to be very precise of the timing when issue occurred.  
+**DHU-bug reports**: Long press of play module Do not enter any menu after triggering the bug report. Wait until the bug report is ready and upload it.  
+**Climate logs:** Press sync temperature button in CSD 10 times.  
 **ADAS Hostlog:** for issues related to Pilot Assist, RSI, LKA, Curve Speed Assist. Make sure to also add a location (Pin on map, koordinates, roadname etc)
 
 
@@ -31,9 +28,9 @@ Fortsätt att själva ladda upp era tasks i Excel. Om ni stöter på problem, h
 
 \- Ladda upp tasks excel: [Lathund]({{lathund_link}} "{{lathund_link}}")
 
-\- Feature: [{{vira_feature_text}}]({{vira_feature_link}} "{{vira_feature_link}}")
+\- Feature: [\[{{vira_feature_num}}\] {{platform}} - PKV_Dependability_Test - {{SW}} - VIRA JIRA](https://jira-vira.volvocars.biz/browse/{{vira_feature_num}} "https://jira-vira.volvocars.biz/browse/{{vira_feature_num}}")
 
-\- Task template: [{{vira_template_text}}]({{vira_template_link}} "{{vira_template_link}}")
+\- Task template: [\[{{vira_template_num}}\] {{vehicle}} - TEMPLATE (open and select More-\>Copy) - VIRA JIRA](https://jira-vira.volvocars.biz/browse/{{vira_template_num}} "https://jira-vira.volvocars.biz/browse/{{vira_template_num}}")
 
 \- Excel workbook: [{{excel_text}}]({{excel_link}} "{{excel_link}}")
 
@@ -42,3 +39,7 @@ Fortsätt att själva ladda upp era tasks i Excel. Om ni stöter på problem, h
 Ps, efter avslutad körning får ni gärna skriva en kort summering som en kommentar till detta inlägg. Det hjälper mycket för att få en snabb överblick av provet.
 
 Ha det gott och hojta om det är några frågor! 
+
+
+#vira_feature_text: \[PKV-48675\] SPA3 - PKV_Dependability_Test - CSWV0.3 - VIRA JIRA
+#vira_feature_link: https://jira-vira.volvocars.biz/browse/PKV-48675

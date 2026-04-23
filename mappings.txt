@@ -1,21 +1,19 @@
+##### EDIT BELOW #####
+
 vehicle: UDK10M/XLP1108
 release: REL14
 SW: CSWV0.3
 model: EX60 AWD
 reg_num: UDK10M
 platform: SPA3
+vira_template_num: PKV-48662
+vira_feature_num: PKV-48675
+
+information_chanel: #FuVe – General
+dripped_until: 2026-05-17 kl 14:00
 
 vira_dashboard_text: PKV SPA3 Release Validation - Agile Board - VIRA JIRA
 vira_dashboard_link: https://jira-vira.volvocars.biz/secure/RapidBoard.jspa?rapidView=19730&quickFilter=247468
-
-vira_template_text: \[PKV-48662\] UDK10M/XLP1108 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
-vira_template_link: https://jira-vira.volvocars.biz/browse/pkv-48662
-
-#vira_template_text: \[PKV-48673\] CJW02P/XLP1179 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
-#vira_template_link: https://jira-vira.volvocars.biz/browse/PKV-48673
-
-#vira_template_text: \[PKV-48676\] JBW41R/XLP1109 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
-#vira_template_link: https://jira-vira.volvocars.biz/browse/PKV-48676
 
 vira_feature_text: \[PKV-48675\] SPA3 - PKV_Dependability_Test - CSWV0.3 - VIRA JIRA
 vira_feature_link: https://jira-vira.volvocars.biz/browse/PKV-48675
@@ -28,6 +26,23 @@ lathund_link: https://mysite.volvocars.net/personal/masplun4_volvocars_com/_layo
 
 car_link: https://intranet.volvocars.net/:f:/r/sites/FuVe/Shared%20Documents/General/FuVe-Listor/SPA3%20-%20V436/REL14/0.3/CJW02P?csf=1&web=1&e=JlBInr
 
-information_chanel: #FuVe – General
+######################
 
-dripped_until: 2026-05-17 kl 14:00
+
+
+
+
+
+
+
+#vira_template_text: \[PKV-48662\] UDK10M/XLP1108 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
+#vira_template_link: https://jira-vira.volvocars.biz/browse/pkv-48662
+
+#vira_template_text: \[PKV-48673\] CJW02P/XLP1179 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
+#vira_template_link: https://jira-vira.volvocars.biz/browse/PKV-48673
+
+#vira_template_text: \[PKV-48676\] JBW41R/XLP1109 - TEMPLATE (open and select More-\>Copy) - VIRA JIRA
+#vira_template_link: https://jira-vira.volvocars.biz/browse/PKV-48676
+
+#vira_feature_text: \[PKV-48675\] SPA3 - PKV_Dependability_Test - CSWV0.3 - VIRA JIRA
+#vira_feature_link: https://jira-vira.volvocars.biz/browse/PKV-48675

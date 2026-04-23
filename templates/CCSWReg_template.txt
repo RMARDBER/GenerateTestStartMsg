@@ -5,9 +5,9 @@ Please check the latest information daily in PKV Current Car Regression Test –
  
 *IMPORTANT! FIRST SHIFT!* Please note, for this test, the first shift will perform **Block 0 of the BLX test**. Instructions on how to perform the block and how to store the results are available in TRAP app.
  
-Instructions on how to act if encountering an error during Block 0 you can find here:
-https://confluence.volvocars.biz/spaces/CFRT/pages/873958801/Fas+1+aka+Block+0+Guide+f%C3%B6r+Kritisk+Funktionskontroll
- 
+Instructions on how to act if encountering an error during Block 0 you can find here:  
+[Fas 1 (aka Block 0): Guide för Kritisk Funktionskontroll - Baseline Verification Team - Confluence](https://confluence.volvocars.biz/spaces/CFRT/pages/873958801/Fas+1+aka+Block+0+Guide+f%C3%B6r+Kritisk+Funktionskontroll "https://confluence.volvocars.biz/spaces/cfrt/pages/873958801/fas+1+aka+block+0+guide+f%c3%b6r+kritisk+funktionskontroll")
+
 The cycle sheet will still be available in the TRAP application, and the test name is: {{platform}} - {{release}} – {{SW}} - Current Car Software Regression Test
  
 The routes used during this test are:
@@ -76,7 +76,7 @@ A Dashboard has been created to keep track of the reports submitted:
 
 Use VIRA to report all issues using the following task template:
 
-[{{vira_template_text}}]({{vira_template_link}} "{{vira_template_link}}")
+[\[{{vira_template_num}}\] {{vehicle}} - TEMPLATE (open and select More-\>Copy) - VIRA JIRA](https://jira-vira.volvocars.biz/browse/{{vira_template_num}} "https://jira-vira.volvocars.biz/browse/{{vira_template_num}}")
 
 **Additional Information**
 
